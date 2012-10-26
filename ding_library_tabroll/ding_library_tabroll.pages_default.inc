@@ -198,6 +198,27 @@ function ding_library_tabroll_default_page_manager_handlers() {
     $pane = new stdClass;
     $pane->pid = 'new-7';
     $pane->panel = 'top';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'tabroll-panel_pane_1';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'context' => array(
+        0 => 'argument_nid_1',
+      ),
+      'override_title' => 1,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array();
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $display->content['new-7'] = $pane;
+    $display->panels['top'][0] = 'new-7';
+    $pane = new stdClass;
+    $pane->pid = 'new-8';
+    $pane->panel = 'top';
     $pane->type = 'library_title';
     $pane->subtype = 'library_title';
     $pane->shown = TRUE;
@@ -214,27 +235,6 @@ function ding_library_tabroll_default_page_manager_handlers() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $display->content['new-7'] = $pane;
-    $display->panels['top'][0] = 'new-7';
-    $pane = new stdClass;
-    $pane->pid = 'new-8';
-    $pane->panel = 'top';
-    $pane->type = 'views_panes';
-    $pane->subtype = 'tabroll-panel_pane_1';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'context' => array(
-        0 => 'argument_nid_1',
-      ),
-      'override_title' => 1,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array();
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 1;
@@ -434,6 +434,27 @@ function ding_library_tabroll_default_page_manager_handlers() {
     $pane = new stdClass;
     $pane->pid = 'new-7';
     $pane->panel = 'top';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'tabroll-panel_pane_1';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'context' => array(
+        0 => 'argument_nid_1',
+      ),
+      'override_title' => 1,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array();
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 0;
+    $display->content['new-7'] = $pane;
+    $display->panels['top'][0] = 'new-7';
+    $pane = new stdClass;
+    $pane->pid = 'new-8';
+    $pane->panel = 'top';
     $pane->type = 'library_title';
     $pane->subtype = 'library_title';
     $pane->shown = TRUE;
@@ -450,27 +471,6 @@ function ding_library_tabroll_default_page_manager_handlers() {
     $pane->style = array(
       'settings' => NULL,
     );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $display->content['new-7'] = $pane;
-    $display->panels['top'][0] = 'new-7';
-    $pane = new stdClass;
-    $pane->pid = 'new-8';
-    $pane->panel = 'top';
-    $pane->type = 'views_panes';
-    $pane->subtype = 'tabroll-panel_pane_1';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'context' => array(
-        0 => 'argument_nid_1',
-      ),
-      'override_title' => 1,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array();
     $pane->css = array();
     $pane->extras = array();
     $pane->position = 1;
